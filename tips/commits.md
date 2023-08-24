@@ -1,8 +1,6 @@
 ## My Conventional Commits:
 
-
-
-- `docs: correct contents inside playwright.md`  
+- `docs: correct contents inside playwright.md`
 - `docs: fix typo in code inside README.md`
 - `docs: updated documentation for new feature implementation`
 - `docs: add more examples and explanations in README.md`

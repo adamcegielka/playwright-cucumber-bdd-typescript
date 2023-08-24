@@ -26,9 +26,8 @@ test('name test @failTest', async ({ page }) => {});
 
 ```javascript
 describe('name tests', () => {
-    test('first test', async ({ page }) => {});
+  test('first test', async ({ page }) => {});
 
-    
-    test('second test', async ({ page }) => {});
+  test('second test', async ({ page }) => {});
 });
 ```
