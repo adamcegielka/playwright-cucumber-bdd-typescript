@@ -13,6 +13,10 @@
   "devDependencies": {
     "@cucumber/cucumber": "^9.4.0",
     "@playwright/test": "^1.37.1",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "eslint-plugin-react": "^7.33.2",
     "ts-node": "^10.9.1"
   }
 }
