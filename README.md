@@ -15,6 +15,16 @@ This project was created solely for my learning process and to showcase my testi
   - `npm i @cucumber/cucumber -D`
   - `npm i ts-node -D`
 - Create folder `src/test/features` and `src/test/steps`
+- Install ESLint `npm install eslint --save-dev`
+- Configuration `npm init @eslint/config`
+- Add prettier in `.eslintrc.json` :
+```json
+"extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+],
+```
 
 ## Tutorials
 
