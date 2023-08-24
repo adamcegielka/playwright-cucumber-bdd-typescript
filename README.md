@@ -25,6 +25,20 @@ This project was created solely for my learning process and to showcase my testi
     "prettier"
 ],
 ```
+- Install Prettier `npm install --save-dev --save-exact prettier`
+- Add file `.prettierignore` :
+```
+package-lock.json
+README.md
+```
+- Add Prettier rule `.prettierrc.json` :
+```json
+{
+    "singleQuote": true
+}
+```
+- Run formatting with Prettier `npx prettier --write .`
+- Linking Prettier with ESLint `npm install --save-dev eslint-config-prettier`
 
 ## Tutorials
 
