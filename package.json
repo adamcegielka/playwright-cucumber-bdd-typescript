@@ -1,7 +1,7 @@
 {
   "name": "playwright-cucumber-bdd-typescript",
   "version": "1.0.0",
-  "description": "[![Playwright.dev](https://img.shields.io/badge/Documentation-Playwright-45ba4b.svg?logo=playwright)](https://playwright.dev/docs/intro)\r [![GitHub Repository](https://img.shields.io/badge/GitHub-CodeceptJS-45ba4b.svg?logo=github)](https://github.com/codeceptjs/CodeceptJS)\r [![CodeceptJS](https://img.shields.io/badge/Discourse-CodeceptJS-ffd700.svg)](https://codecept.discourse.group/)\r [![CodeceptJS](https://img.shields.io/badge/Testing%20framework-CodeceptJS-ffd700.svg)](https://codecept.io/)\r <br>",
+  "description": "This is my personal project to improve my skills in automated testing using Cucumber and BDD.",
   "main": "index.js",
   "directories": {
     "doc": "docs"
