@@ -1,0 +1,18 @@
+{
+  "name": "playwright-cucumber-bdd-typescript",
+  "version": "1.0.0",
+  "description": "[![Playwright.dev](https://img.shields.io/badge/Documentation-Playwright-45ba4b.svg?logo=playwright)](https://playwright.dev/docs/intro)\r [![GitHub Repository](https://img.shields.io/badge/GitHub-CodeceptJS-45ba4b.svg?logo=github)](https://github.com/codeceptjs/CodeceptJS)\r [![CodeceptJS](https://img.shields.io/badge/Discourse-CodeceptJS-ffd700.svg)](https://codecept.discourse.group/)\r [![CodeceptJS](https://img.shields.io/badge/Testing%20framework-CodeceptJS-ffd700.svg)](https://codecept.io/)\r <br>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.4.0",
+    "@playwright/test": "^1.37.1",
+    "ts-node": "^10.9.1"
+  }
+}
