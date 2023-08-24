@@ -1,7 +1,5 @@
 [![Playwright.dev](https://img.shields.io/badge/Documentation-Playwright-45ba4b.svg?logo=playwright)](https://playwright.dev/docs/intro)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-CodeceptJS-45ba4b.svg?logo=github)](https://github.com/codeceptjs/CodeceptJS)
-[![CodeceptJS](https://img.shields.io/badge/Discourse-CodeceptJS-ffd700.svg)](https://codecept.discourse.group/)
-[![CodeceptJS](https://img.shields.io/badge/Testing%20framework-CodeceptJS-ffd700.svg)](https://codecept.io/)
+[![Cucumber](https://img.shields.io/badge/Documantation-Cucumber-23d96c.svg?logo=cucumber)](https://cucumber.io/)
 <br>
 
 # Playwright with Typescript - Cucumber - BDD
@@ -21,6 +19,7 @@ This project was created solely for my learning process and to showcase my testi
 ## Tutorials
 
 - [Playwright Cucumber (BDD) - Typescript](https://www.udemy.com/course/playwright-cucumber-bdd-typescript)
+- [Automated Software Testing with Playwright](https://www.udemy.com/course/automated-software-testing-with-playwright)
 - [Playwright & Cucumber - Typescript](https://www.youtube.com/watch?v=bfWXNLqKlvA&list=PL699Xf-_ilW6KgK-S1l9ynOnBGiZl2Bsk)
 - [Cucumber and Playwright](https://www.youtube.com/watch?v=PUVFmhYJNJA&t=1314s)
 - [Cucumber JS - YT](https://www.youtube.com/watch?v=vT4WHsZh6AU&list=PLBw1ubD1J1UhScgbM67OAfZqrVQJNzg0b)
