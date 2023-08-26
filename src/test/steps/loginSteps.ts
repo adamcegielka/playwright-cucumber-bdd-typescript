@@ -28,6 +28,8 @@ Given('User enter the password as {string}', async function (password) {
 When('User click on the login button', async function () {
   await pageFixture.page.locator('button[color="primary"]').click();
   // await pageFixture.page.locator('.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary').click();
+  await pageFixture.page.waitForLoadState();
+  await pageFixture.page.waitForTimeout(2000);
 });
 
 Then('Login should be success', async function () {
