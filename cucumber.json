@@ -3,10 +3,17 @@
         "formatOptions": {
             "snippetInterface": "async-await"
         },
-        "paths": ["src/test/features/"],
+        "paths": [
+            "src/test/features/addBookToCart.feature"
+        ],
         "publishQuiet": true,
         "dryRun": false,
-        "require": ["src/test/steps/*.ts"],
-        "requireModule": ["ts-node/register"]
+        "require": [
+            "src/test/steps/*.ts",
+            "src/hooks/hooks.ts"
+        ],
+        "requireModule": [
+            "ts-node/register"
+        ]
     }
 }
