@@ -6,17 +6,24 @@ let browser: Browser;
 let page: Page;
 
 BeforeAll(async () => {
-  console.log('Launch Browser');
+  console.log('Launch Browser using Playwright and Chromium browser, performed once, before the start of all test scenarios.');
   browser = await chromium.launch({ headless: false });
   page = await browser.newPage();
   pageFixture.page = page;
 });
 
 AfterAll(async () => {
-  await pageFixture.page.close();
+  console.log('Closes Browser before the start of each scenario');
   await browser.close();
 });
 
-Before(async () => {});
+Before(async () => {
+  console.log('Launch Browser, performed before each individual test scenario');
+  page = await browser.newPage();
+  pageFixture.page = page;
+});
 
-After(async () => {});
+After(async () => {
+  console.log('Browser closed after each scenario');
+  await page.close();
+});
