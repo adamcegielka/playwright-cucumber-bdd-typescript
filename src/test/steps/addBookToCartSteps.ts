@@ -18,5 +18,5 @@ Then('the cart badge should get updated', async function () {
   const countInCart = await pageFixture.page
     .locator('#mat-badge-content-0')
     .textContent();
-  expect(Number(countInCart)).toBeGreaterThan(0);
+  expect(Number(countInCart?.length)).toBeGreaterThan(0);
 });
