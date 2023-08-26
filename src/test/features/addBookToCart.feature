@@ -13,6 +13,6 @@ Feature: Add book to cart
     Then the cart badge should get updated
 
     Examples:
-      | username    | password     | book        |
-      | ortoni      | pass1234     | Roomies     |
-      | userUnknown | badPassword  | The Hookup  |
+      | username | password  | book            |
+      | ortoni   | pass1234$ | Roomies         |
+      | ortonikc | pass1234  | The Simple Wild |
