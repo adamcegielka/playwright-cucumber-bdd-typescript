@@ -1,0 +1,14 @@
+name: Handle PRs
+on: 
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  output-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output PR details
+        run: echo "${{ toJson(github.event) }}"
