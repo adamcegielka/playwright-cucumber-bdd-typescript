@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Output event details
-        run: echo "${{ toJson(github.event) }}"
+        run: echo "Event triggered for the 'issues' workflow."
