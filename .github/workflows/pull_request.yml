@@ -1,14 +1,11 @@
 name: Handle PRs
-on: 
+on:
   pull_request:
     types:
       - opened
-      - synchronize
-      - reopened
-
 jobs:
-  output-info:
+  run_if:
+    if:  startsWith(github.head_ref, 'releases/')
     runs-on: ubuntu-latest
     steps:
-      - name: Output PR details
-        run: echo "${{ toJson(github.event) }}"
+      - run: echo "The head of this PR starts with 'releases/'"
