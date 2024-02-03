@@ -8,7 +8,10 @@
   },
   "scripts": {
     "test": "cucumber-js test || true",
-    "posttest": "npx ts-node src/helper/report.ts"
+    "posttest": "npx ts-node src/helper/report.ts",
+    "prettier": "npx prettier --write .",
+    "lint:check": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
