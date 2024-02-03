@@ -33,7 +33,7 @@ After(async ({ pickle, result }) => {
       type: 'png',
     });
   }
-  
+
   await pageFixture.page.close();
   await context.close();
 });
