@@ -9,7 +9,7 @@ BeforeAll(async () => {
   console.log(
     'Launch Browser using Playwright and Chromium browser, performed once, before the start of all test scenarios.',
   );
-  browser = await chromium.launch({ headless: true });
+  browser = await chromium.launch({ headless: false });
 });
 
 AfterAll(async () => {
@@ -29,11 +29,11 @@ After(async ({ pickle, result }) => {
   // screenshot
   if (result?.status == Status.FAILED) {
     await pageFixture.page.screenshot({
-      path: `./test-result/screenshots/${pickle.name}.png`,
+      path: `./test-results/screenshots/${pickle.name}.png`,
       type: 'png',
     });
   }
-  
+
   await pageFixture.page.close();
   await context.close();
 });
