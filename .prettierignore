@@ -1,2 +1,9 @@
+node_modules/
+/test-results/
+assets
+features
 package-lock.json
 README.md
+cucumber-report.html
+@rerun.txt
+index.html
