@@ -1,0 +1,20 @@
+# Ignore the project's node_modules directory
+node_modules/
+
+# Ignore test results directory
+test-results/
+
+# Ignore static assets
+assets/
+
+# Ignore Cucumber feature files
+features/
+
+# Ignore generated Cucumber report
+cucumber-report.html
+
+# Ignore rerun information file
+@rerun.txt
+
+# Ignore the main HTML file of the project
+index.html
